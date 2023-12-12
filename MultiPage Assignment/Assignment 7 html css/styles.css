@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(244, 238, 238);
+
+  width: 100vw;
+  height: 100vh;
+}
+.head {
+  display: flex;
+}
+.logo {
+  margin-top: 10px;
+  display: inline;
+  margin-left: 90px;
+  width: 130px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 600px;
+  gap: 30px;
+}
+nav {
+  display: flex;
+
+  justify-content: space-between;
+}
+.first {
+  margin-top: 130px;
+}
+.section {
+  background-image: url(./images/stethoscope.png);
+  background-attachment: fixed;
+  display: flex;
+
+  margin-left: 90px;
+}
+.first h1 {
+  font-size: 3.5rem;
+}
+.first p {
+  font-size: 0.9rem;
+}
+.appoint {
+  background-color: rgb(35, 194, 133);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.bottomAngle {
+  margin-left: 460px;
+}
+
+.doctor {
+  margin-top: 40px;
+  margin-left: 282px;
+  width: 370px;
+  height: 500px;
+  background: no-repeat bottom/95% url("./images/greenBox.png");
+}
+.main {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.main h1 {
+  color: rgb(4, 177, 128);
+  font-size: 2rem;
+  font-weight: 900;
+}
+.main p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+
+  gap: 40px;
+}
+.box {
+  width: 180px;
+  height: 80px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px grey;
+  padding: 18px 25px 18px 25px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+span {
+  color: rgb(4, 177, 128);
+}
+.form {
+  gap: 20px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  width: 30vw;
+  height: 70vh;
+  margin: 100px auto;
+  border-radius: 10px;
+  border: 1px solid rgb(117, 114, 114);
+  box-shadow: 1px 1px 1px grey;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.heading {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.box1 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.message {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.btn {
+  background-color: rgb(35, 194, 133);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
